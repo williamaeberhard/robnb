@@ -1,9 +1,11 @@
-robNB: an R package for robust estimation and accurate inference for negative binomial model
---------------------------------------------------------------------------------------------
+robNB: an R package for robust estimation and accurate inference for the negative binomial model
+------------------------------------------------------------------------------------------------
 
 This R package provides functions for fitting negative binomial generalized linear models to count data both by maximum likelihood and by robust (bounded influence) methods. It also provides many different tests, including saddlepoint tests known for their high accuracy in small samples. For an overview and more details, see the package main help page by running help(robNB) after installation.
 
-Package updates can be found at https://github.com/williamaeberhard/robnb. Any requests/comments/bug reports should be sent to william.aeberhard@gmail.com.
+Package updates can be found at https://github.com/williamaeberhard/robnb.
+
+Any requests/comments/bug reports should be sent to william.aeberhard@gmail.com.
 
 ### Contents
 
