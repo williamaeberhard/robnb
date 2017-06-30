@@ -32,3 +32,6 @@ Tested and compiled on R version 3.3.1. R CMD check returned all ok.
 4. Load the package by running library(robNB).
 5. Check out the main help page by running help(robNB).
 
+### References
+
+Aeberhard, W. H., Cantoni, E. and Heritier, S. (2017) Saddlepoint tests for accurate and robust inference on overdispersed count data. Computational Statistics & Data Analysis (107), 162--175.
