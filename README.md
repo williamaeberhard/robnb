@@ -20,10 +20,8 @@ Files contained in this repository:
 This is robNB version 0.2.1. The following changes were made from the previous version:
 
 * updated reference to CSDA paper.
-* corrected an error in the computation of st.rob.
-* added a stop() statement in st.ml in case the constrained ML fit assigned any fitted.values to maxmu (happens only with really weird samples, made R crash on some systems).
 
-Tested and compiled on R version 3.3.1. R CMD check returned all ok.
+Tested and compiled on R version 3.4.3. R CMD check returned all ok.
 
 ### Package Installation
 
