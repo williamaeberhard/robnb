@@ -11,14 +11,15 @@ Any requests/comments/bug reports should be sent to william.aeberhard@gmail.com.
 
 Files contained in this repository:
 
-* robNB_0.2.tar.gz, a tarball containing the R package to be installed from R, see below;
+* robNB_0.2.1.tar.gz, a tarball containing the R package to be installed from R, see below;
 * a LICENSE file;
 * this README file.
 
 ### Version History
 
-This is robNB version 0.2. The following changes were made from the previous version:
+This is robNB version 0.2.1. The following changes were made from the previous version:
 
+* updated reference to CSDA paper.
 * corrected an error in the computation of st.rob.
 * added a stop() statement in st.ml in case the constrained ML fit assigned any fitted.values to maxmu (happens only with really weird samples, made R crash on some systems).
 
@@ -27,8 +28,8 @@ Tested and compiled on R version 3.3.1. R CMD check returned all ok.
 ### Package Installation
 
 1. Open R.
-2. Make sure your working directory contains the file robNB_0.2.tar.gz.
-3. Run install.packages('robNB_0.2.tar.gz',repos=NULL,type='source').
+2. Make sure your working directory contains the file robNB_0.2.1.tar.gz.
+3. Run install.packages('robNB_0.2.1.tar.gz',repos=NULL,type='source').
 4. Load the package by running library(robNB).
 5. Check out the main help page by running help(robNB).
 
